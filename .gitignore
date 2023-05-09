@@ -52,3 +52,5 @@ yarn-error.log*
 __MACOSX/
 Thumbs.db
 .DS_Store
+
+!/.env.example
