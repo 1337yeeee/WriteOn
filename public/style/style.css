@@ -1,0 +1,166 @@
+/* search  */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+header .btn {
+  background-color: inherit;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.search-form input[type="text"] {
+  height: 30px;
+  padding: 1px 10px;
+  border: 1px solid var(--blue_main);
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.search-form input[type="text"]:focus-visible {
+  outline: none;
+  padding: 0 9px;
+  border: 2px solid var(--orange_main);
+}
+
+.search-form button[type="submit"] {
+  margin-left: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  fill: #fff;
+}
+
+/* left menu */
+.left-menu {
+/*  background-color: #f2f2f2;*/
+  border: 1px solid inherit;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background-color: var(--blue_main);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header .c{
+  justify-content: center;
+}
+.header .nav-tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+.header .nav-element {
+  margin-right: 20px;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.book-card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  max-width: 300px;
+  min-width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.book-card img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.author {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+.pagination {
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagination li a {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
+
+.pagination li.active span {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: var(--blue_main);
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.pagination li.disabled span {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+}
+
+.pagination li.disabled {
+  cursor: not-allowed;
+}
+
+.nav-element .user-page {
+  text-decoration: underline;
+}

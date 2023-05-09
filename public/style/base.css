@@ -1,0 +1,80 @@
+:root {
+  --blue_main: #2D4059;
+  --red_main: #EA5455;
+  --orange_main: #F07B3F;
+  --yellow_main: #FFD460;
+  --green_main: #B4DC7F;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.2;
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  border: 3px solid var(--orange_main);
+  padding: 4px 9px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--red_main);
+}
+
+.btn-primary:hover {
+  background-color: var(--yellow_main);
+}
+
+.btn-disable {
+  background-color: var(--blue_main);
+}
+
+.btn-disable:hover {
+  background-color: var(--blue_main);
+  cursor: not-allowed;
+}
+
+.btn-warning {
+  background-color: var(--yellow_main);
+}
+
+.btn-warning:hover {
+  background-color: var(--yellow_main);
+  cursor: help;
+}
+
+.b {
+  font-weight: bold;
+}

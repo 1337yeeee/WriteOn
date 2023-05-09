@@ -1,0 +1,46 @@
+nav {
+  background-color: var(--blue_main);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav .c {
+  justify-content: none;
+}
+
+nav.c ul {
+  width: 33.33%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.center {
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+.author .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.author-img {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.author-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.author-info {
+  flex: 2;
+}
+
+.author-name {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.author-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}

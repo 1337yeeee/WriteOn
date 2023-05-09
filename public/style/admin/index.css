@@ -1,0 +1,12 @@
+body {
+  background-color: var(--green_main);
+}
+
+.welcome {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 30vh;
+}

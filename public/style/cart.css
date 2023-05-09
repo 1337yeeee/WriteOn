@@ -1,0 +1,80 @@
+button img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+}
+
+td + .total_prod {
+  min-width: 6em;
+}
+
+.cart-quantity > span {
+  display: inline-block;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.make-order {
+  width: 80%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.make-order form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.make-order h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.make-order label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.make-order input[type="text"],
+.make-order input[type="email"],
+.make-order input[type="tel"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.make-order input[type="submit"] {
+  background-color: var(--blue_main);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.make-order input[type="submit"]:hover {
+  background-color: var(--green_main);
+}
